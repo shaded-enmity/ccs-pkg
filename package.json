@@ -1,0 +1,30 @@
+{
+  "name": "ccspkg",
+  "version": "0.6.0",
+  "description": "Important part of the CCS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaded-enmity/ccs-pkg"
+  },
+  "keywords": [
+    "ccs",
+    "pkg",
+    "test"
+  ],
+  "author": "Pavel Odvody",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaded-enmity/ccs-pkg/issues"
+  },
+  "homepage": "https://github.com/shaded-enmity/ccs-pkg",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "async": "^1.5.0",
+    "simple-lru-cache": "^0.0.2"
+  }
+}
